@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+build/
+install/
+log/
+
+.mediapipe_models/
+
+.vscode/
+.idea/

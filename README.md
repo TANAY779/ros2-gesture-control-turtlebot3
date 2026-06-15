@@ -4,7 +4,27 @@ Real-time hand gesture control of TurtleBot3 Burger in Gazebo using MediaPipe, O
 
 ![Demo](docs/demo.gif)
 
----
+
+## Results
+
+The system was successfully validated in Gazebo Harmonic using TurtleBot3 Burger simulation.
+
+### Achievements
+
+- Real-time hand tracking using MediaPipe
+- Stable gesture recognition using temporal filtering
+- ROS2 TwistStamped command publishing
+- Real-time dashboard with FPS monitoring
+- End-to-end gesture-to-robot control pipeline
+- Gesture-controlled TurtleBot3 navigation in Gazebo
+
+### Performance
+
+- 21-point hand landmark detection
+- Low-latency gesture recognition
+- Real-time command execution
+- Visual feedback dashboard
+
 
 ## Dashboard
 
@@ -85,12 +105,26 @@ TurtleBot3 Gazebo
 
 ---
 
+## Skills Demonstrated
+
+- ROS2 Jazzy
+- Gazebo Harmonic
+- Computer Vision
+- MediaPipe
+- Human-Robot Interaction
+- Robot Teleoperation
+- Real-Time Systems
+- Python Development
+- Robotics Middleware
+
+---
+
 ## Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ros2-gesture-control-turtlebot3.git
+git clone https://github.com/TANAY779/ros2-gesture-control-turtlebot3.git
 
 cd ros2-gesture-control-turtlebot3
 ```
@@ -124,7 +158,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 ### Run Gesture Control Node
 
 ```bash
-python -m gesture_control.gesture_node
+ros2 launch gesture_control gesture_control.launch.py
 ```
 
 ---
